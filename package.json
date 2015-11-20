@@ -1,0 +1,27 @@
+{
+  "name": "sdierauf",
+  "version": "0.0.1",
+  "description": "Generating facebook statuses with markov chains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sdierauf/facebook-markov.git"
+  },
+  "keywords": [
+    "facebook",
+    "status",
+    "markov"
+  ],
+  "author": "Stefan Dierauf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdierauf/facebook-markov/issues"
+  },
+  "homepage": "https://github.com/sdierauf/facebook-markov#readme",
+  "dependencies": {
+    "fb": "^0.7.3"
+  }
+}
