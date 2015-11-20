@@ -4,7 +4,8 @@
   "description": "Generating facebook statuses with markov chains",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,11 @@
   },
   "homepage": "https://github.com/sdierauf/facebook-markov#readme",
   "dependencies": {
-    "fb": "^0.7.3"
+    "fb": "^0.7.3",
+    "markovchain": "^1.0.0",
+    "prompt": "^0.2.14",
+    "request": "^2.67.0",
+    "simple-ngram-markov": "^1.0.4",
+    "step": "0.0.6"
   }
 }
